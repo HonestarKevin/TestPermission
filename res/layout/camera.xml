@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <SurfaceView
+        android:id="@+id/preview_view"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center" />
+    <com.zxing.view.ViewfinderView
+        android:id="@+id/viewfinder_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="@dimen/scan_page_left_width"
+            android:layout_height="fill_parent"
+            android:alpha="65"
+            android:background="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="@dimen/scan_page_scan_width"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            <ImageView 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/scan_page_left_width"
+            android:layout_height="fill_parent"
+            android:alpha="65"
+            android:background="@android:color/black" />
+    </LinearLayout>
+
+</FrameLayout>

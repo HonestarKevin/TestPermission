@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QrPermission</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Home page  -->
+    <string name="str_home_page_top_title_remind_1">"1,用微信生成上机二维码"</string>
+    <string name="str_home_page_top_title_remind_2">"2,点击“上机”扫描上机二维码"</string>
+    <string name="str_home_page_top_title_remind_3">"请使用微信扫描下面的二维码\n开始使用设备:"</string>
+    <string name="str_home_page_button_login">"上机"</string>
+    <string name="str_home_page_button_use_log">"使用记录"</string>
+    <string name="str_home_page_contact_person">"管理员：张老师，陈老师  电话：8617767， 87130592"</string>
+    
+    <!-- permission denied page -->
+    <string name="str_permission_denied_page_error_info">"对不起，您现在无权限使用设备！\n如有疑问请联系管理员。"</string>
+    <string name="sstr_permission_denied_contact_person">"管理员：张老师，陈老师  \n电话：8617767， 87130592"</string>
+    <string name="str_permission_denied_page_button_login">"扫描上机二维码"</string>
+    <string name="str_permission_denied_page_button_generate">"生成上机二维码"</string>
+    
+    <string name="str_online_page_next_user">"下一个预约者"</string>
+    <string name="str_online_page_next_user_info_test_1">"姓名：张同学  电话 12345678"</string>
+    <string name="str_online_page_next_user_info_test_2">"预约时间：2016.7.7 12：44：44 到 2016.8.8 13：33：00"</string>
+    <string name="str_online_page_user">"使用者"</string>
+    <string name="str_online_page_user_time">"使用时间"</string>
+    <string name="str_online_page_logout">"下机"</string>
+</resources>
