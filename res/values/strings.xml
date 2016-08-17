@@ -25,4 +25,9 @@
     <string name="str_online_page_user">"使用者"</string>
     <string name="str_online_page_user_time">"使用时间"</string>
     <string name="str_online_page_logout">"下机"</string>
+    
+    <string name="str_logout_confirm_page_logout_title">"下机确认"</string>
+    <string name="str_logout_confirm_page_logout_prompt">"您确认要下机吗？"</string>
+    <string name="str_logout_confirm_page_logout_negative">"取消"</string>
+    <string name="str_logout_confirm_page_logout_positive">"确认"</string>
 </resources>
